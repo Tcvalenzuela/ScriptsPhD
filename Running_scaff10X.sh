@@ -1,0 +1,1 @@
+nohup /srv/public/users/tomas/programs/tools/scaff10x/Scaff10X/src/scaff10x -nodes 48 -longread 1 -gap 100 -matrix 2000 -read-s1 12 -read-s2 8 -score 20 -edge 50000 -link 10 -block 50000 -data input.dat purged_p1.fa Scaff_10x_s1.fasta &
