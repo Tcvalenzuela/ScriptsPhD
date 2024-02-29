@@ -53,5 +53,5 @@ for line in tableReader:
 
 for scaf in freqHash:
 	for ran in freqHash[scaf]:
-		print("%s\t%i\t%i\t%i"%(scaf, ran-10000, ran, freqHash[scaf][ran]))
+		print("%s\t%i\t%i\t%i"%(scaf, ran-int(args.b), ran, freqHash[scaf][ran]))
 	print()
